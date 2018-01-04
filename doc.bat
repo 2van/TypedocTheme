@@ -1,0 +1,1 @@
+typedoc --options typedoc.json src

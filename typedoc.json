@@ -1,0 +1,10 @@
+{
+    "mode": "file",
+    "out": "./documents",
+    "theme": "./theme",
+    "ignoreCompilerErrors": true,
+    "excludeExternals": true,
+    "excludeNotExported": true,
+    "target": "ES5",
+    "module": "commonjs"
+}

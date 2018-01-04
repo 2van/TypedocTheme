@@ -1,0 +1,42 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{#ifCond model.name '==' project.name}}{{project.name}}{{else}}{{model.name}} | {{project.name}}{{/ifCond}}</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="{{relativeURL "assets/css/main.css"}}">
+    <link rel="stylesheet" href="{{relativeURL "assets/css/custom.css"}}">
+</head>
+<body>
+
+<div class="container container-main">
+    <div class="row">
+        <div class="col-menu menu-sticky-wrap menu-highlight">
+            <nav class="tsd-navigation primary">
+                <h3><a href="{{relativeURL "index.html "}}" class="title">{{project.name}}</a></h3>
+            </nav> 
+            {{> header}}
+            <nav class="tsd-navigation secondary menu-sticky">
+                <ul class="before-current">
+                    {{#each toc.children}}
+                        {{> toc.root}}
+                    {{/each}}
+                </ul>
+            </nav>
+        </div>
+        <div class="col-content">
+            {{{contents}}}
+        </div>
+    </div>
+</div>
+
+
+<div class="overlay"></div>
+<script src="{{relativeURL "assets/js/main.js"}}"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="{{relativeURL "assets/js/search.js"}}"><' + '/script>');</script>
+
+</body>
+</html>

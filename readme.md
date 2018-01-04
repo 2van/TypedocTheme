@@ -1,0 +1,1 @@
+# npm i typedoc@0.8.0 -g
