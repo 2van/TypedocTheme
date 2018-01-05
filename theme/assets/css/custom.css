@@ -48,7 +48,7 @@
     padding-bottom: 0;
 }
 
-.tsd-navigation.primary h3 a{
+.tsd-navigation.primary h3 a {
     color: #fff;
     letter-spacing: 1px;
 }
@@ -70,6 +70,7 @@ h2 {
 .tsd-page-toolbar {
     position: relative;
     z-index: 99999;
+    border-radius: 5px;
 }
 
 #tsd-search .results {
@@ -86,4 +87,9 @@ h2 {
 
 .tsd-navigation a {
     color: #999;
+}
+
+header {
+    width: 90%;
+    margin: 0 auto;
 }
