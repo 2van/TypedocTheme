@@ -1,5 +1,5 @@
 {
-  "name": "tsdoctheme",
+  "name": "TypedocTheme",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/hengyangniubi/tsdocTheme.git"
+    "url": "git+https://github.com/haiyuanhsu/TypedocTheme.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/hengyangniubi/tsdocTheme/issues"
+    "url": "https://github.com/haiyuanhsu/TypedocTheme/issues"
   },
-  "homepage": "https://gitlab.com/hengyangniubi/tsdocTheme#README"
+  "homepage": "https://github.com/haiyuanhsu/TypedocTheme#README"
 }
